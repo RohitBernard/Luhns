@@ -1,4 +1,6 @@
 language: python
+install:
+  - pip install python-coveralls
 script:
   - python luhns.py 79927398713
   - python luhns.py 12345678901
