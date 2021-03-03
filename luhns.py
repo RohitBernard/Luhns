@@ -1,5 +1,4 @@
 import sys
-
 def luhns(cardNum):
 	cardSum = 0
 	alternate = False
@@ -16,13 +15,10 @@ def luhns(cardNum):
 		return False
  
 if __name__=="__main__":
-	
 	if len(sys.argv)!=2:
 		print ("\nSyntax: python %s 'Card Number'" % (sys.argv[0]))
 		exit()
-
 	cardNum = sys.argv[1]
-	
 	if (luhns(cardNum)):
 		print("This is a valid card")
 	else:
