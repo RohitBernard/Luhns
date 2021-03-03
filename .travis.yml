@@ -4,5 +4,6 @@ install:
 script:
   - python luhns.py 79927398713
   - python luhns.py 12345678901
+  - python luhns.py 98765432123
 after_success:
   - coveralls
